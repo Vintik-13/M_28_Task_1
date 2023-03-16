@@ -13,8 +13,8 @@ class Swimmer;
 const int NUMBERTRACKS{ 6 };
 const int DISTANCE{ 100 };
 
-std::mutex acc;
-std::vector<Swimmer*> finish;
+extern std::mutex acc;
+extern std::vector<Swimmer*> finish;
 
 class Swimmer {
 
